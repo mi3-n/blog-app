@@ -1,0 +1,9 @@
+.createPost {
+  background-color: #C1A3A3;
+  padding: 20px;
+  min-height: 90vh;
+}
+
+.createForm {
+  margin: auto;
+}

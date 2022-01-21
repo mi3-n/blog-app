@@ -1,0 +1,7 @@
+.blogMain {
+  display: flex;
+  justify-content: space-evenly;
+  min-height: 90vh;
+  align-items: center;
+  background-color: #C1A3A3;
+}

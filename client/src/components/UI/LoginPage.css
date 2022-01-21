@@ -1,0 +1,17 @@
+.loginAll {
+  min-height: 90vh;
+  background-color: #C1A3A3;
+  padding: 20px;
+}
+
+.loginForm {
+  width: 400px;
+  margin: 40px auto;
+  border: 2px solid white;
+  border-radius: 4px;
+  padding: 20px;
+}
+
+.loginRegister {
+  margin-top: 20px !important;
+}
