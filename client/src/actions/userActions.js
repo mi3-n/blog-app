@@ -17,6 +17,7 @@ export const login = (email, password) => async (dispatch) => {
             config
         );
 
+
         dispatch({ type: USER_LOGIN_SUCCESS, payload: data });
 
         localStorage.setItem("userInfo", JSON.stringify(data));
@@ -31,6 +32,7 @@ export const login = (email, password) => async (dispatch) => {
         });
     };
 };
+
 
 export const logout = () => async (dispatch) => {
     localStorage.removeItem("userInfo");
@@ -67,6 +69,5 @@ export const register = (name, email, password) => async (dispatch) => {
                 ? error.response.data.message
                 : error.message,
         })
-
     }
 }

@@ -35,6 +35,7 @@ const registerUser = asyncHandler(async (req, res) => {
         throw new Error("user ALready Exists");
     }
 
+
     // if not, it creates the new user
     const user = await User.create({
         name,
@@ -54,5 +55,6 @@ const registerUser = asyncHandler(async (req, res) => {
         throw new Error("Error Occured")
     }
 });
+
 
 module.exports = { registerUser, authUser }

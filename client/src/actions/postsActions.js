@@ -1,6 +1,7 @@
 import axios from "axios"
 import { POST_CREATE_REQUEST, POST_CREATE_SUCCESS, POST_LIST_FAIL, POST_LIST_REQUEST, POST_LIST_SUCCESS } from "../constants/postsConstants"
 
+
 export const listPosts = () => async (dispatch, getState) => {
     try {
         dispatch({
@@ -34,6 +35,7 @@ export const listPosts = () => async (dispatch, getState) => {
         });
     }
 };
+
 
 export const createPostAction = (title, content, category) => async (dispatch, getState) => {
     try {

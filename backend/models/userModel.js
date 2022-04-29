@@ -1,7 +1,6 @@
 const mongoose = require('mongoose');
 const bcrypt = require('bcryptjs');
 
-
 // User modal for login etc.
 const userSchema = mongoose.Schema(
     {
